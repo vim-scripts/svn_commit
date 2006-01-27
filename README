@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=1451
+
+This plugin will look in the current directory for aborted subversion commit log messages, and then read in the newest one to your current commit log.
+
+This saves you having to remember what the log files are called, or importing it yourself and tidying up the log message manually.
+
+http://atlee.ca/blog/software/svn-commit/
