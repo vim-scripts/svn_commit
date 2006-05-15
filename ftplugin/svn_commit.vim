@@ -4,7 +4,7 @@
 "
 " Written by Chris AtLee <chris@atlee.ca>
 " Released under the GPLv2
-" Version 0.1
+" Version 0.2
 
 function s:ReadPrevCommitLog()
     " Get the newest file (ignoring this one)
@@ -27,6 +27,7 @@ function s:ReadPrevCommitLog()
             silent exe first . "," . last . "d"
         endif
         normal 1G
+        set modified
     endif
 endf
 call s:ReadPrevCommitLog()
